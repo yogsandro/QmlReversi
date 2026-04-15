@@ -1,0 +1,2 @@
+#define QmlOthello_VERSION_MAJOR @QmlOthello_VERSION_MAJOR@
+#define QmlOthello_VERSION_MINOR @QmlOthello_VERSION_MINOR@
