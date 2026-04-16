@@ -14,8 +14,7 @@ add_library(libothello SHARED IMPORTED)
 # Path to the .so on disk (adjust)
 set_target_properties(libothello PROPERTIES
     IMPORTED_LOCATION "${CMAKE_CURRENT_SOURCE_DIR}/lib/libothello.so"
-    INTERFACE_INCLUDE_DIRECTORIES "/home/sandro/dev/C++/workspace/reversi/include"
-    #"${CMAKE_CURRENT_SOURCE_DIR}/../../workspace/reversi/include"
+    INTERFACE_INCLUDE_DIRECTORIES "path to othello include dir"
 )
 
 find_package(Qt6 REQUIRED COMPONENTS Core Gui Qml Quick QuickControls2)
